@@ -1,0 +1,2 @@
+ssh -i "public_key.pem" -R 65432:localhost:65432 ec2-user@ec2-18-218-93-102.us-east-2.compute.amazonaws.com
+/home/seniord/ECE_1896/xarm_case_a/tcp/public_key.pem
