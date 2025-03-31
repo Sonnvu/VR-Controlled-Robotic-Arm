@@ -5,7 +5,7 @@ import serial_bus_servo_controller as sbsc
 import time
 controller = sbsc.SBS_Controller("/dev/ttyS0")
 
-controller.cmd_move_with_angle(0, 90, 0, 0, 3000)
+controller.cmd_move_with_angle(-90, 0, 0, 0, 0, 0, 1000)
 
 time.sleep(3)
 

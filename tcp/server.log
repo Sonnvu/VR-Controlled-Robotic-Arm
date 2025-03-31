@@ -5371,3 +5371,444 @@ Moved arm to angles: Servo_6 = 45.0, Servo_5 = 115.1656812368076, Servo_4 = -61.
 [2025-03-30 17:08:11] CONNECTION ESTABLISHED: ('127.0.0.1', 48526)
 [2025-03-30 17:08:11] Received: x = 0, y = -29.8, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
 [2025-03-30 18:04:49] Shutting down server due to system signal...
+[2025-03-30 21:09:49] TCP Server Application Started
+[2025-03-30 21:09:50] Connection to remote log stream on: 0.0.0.0:5000
+[2025-03-30 21:09:50] TCP Server listening on 0.0.0.0:65432...
+[2025-03-30 21:11:15] Shutting down server due to system signal...
+[2025-03-30 21:11:30] TCP Server Application Started
+[2025-03-30 21:11:30] Connection to remote log stream on: 0.0.0.0:5000
+[2025-03-30 21:11:30] TCP Server listening on 0.0.0.0:65432...
+[2025-03-30 21:16:07] CONNECTION ESTABLISHED: ('127.0.0.1', 57004)
+[2025-03-30 21:16:07] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:07] CONNECTION ESTABLISHED: ('127.0.0.1', 57008)
+[2025-03-30 21:16:07] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:08] CONNECTION ESTABLISHED: ('127.0.0.1', 57014)
+[2025-03-30 21:16:08] Received: x = 0.274, y = 0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:08] CONNECTION ESTABLISHED: ('127.0.0.1', 57026)
+[2025-03-30 21:16:08] Received: x = 0.48, y = 0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:08] CONNECTION ESTABLISHED: ('127.0.0.1', 57036)
+[2025-03-30 21:16:08] Received: x = 0.67, y = 0.08, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:13] CONNECTION ESTABLISHED: ('127.0.0.1', 57050)
+[2025-03-30 21:16:13] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:13] CONNECTION ESTABLISHED: ('127.0.0.1', 57060)
+[2025-03-30 21:16:13] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:13] CONNECTION ESTABLISHED: ('127.0.0.1', 57074)
+[2025-03-30 21:16:13] Received: x = 0.274, y = 0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:14] CONNECTION ESTABLISHED: ('127.0.0.1', 57082)
+[2025-03-30 21:16:14] Received: x = 0.48, y = 0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:14] CONNECTION ESTABLISHED: ('127.0.0.1', 57084)
+[2025-03-30 21:16:14] Received: x = 0.67, y = 0.08, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:20] CONNECTION ESTABLISHED: ('127.0.0.1', 35288)
+[2025-03-30 21:16:20] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:21] CONNECTION ESTABLISHED: ('127.0.0.1', 35302)
+[2025-03-30 21:16:21] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:21] CONNECTION ESTABLISHED: ('127.0.0.1', 35310)
+[2025-03-30 21:16:21] Received: x = 0.274, y = 0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:21] CONNECTION ESTABLISHED: ('127.0.0.1', 35316)
+[2025-03-30 21:16:21] Received: x = 0.48, y = 0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:16:22] CONNECTION ESTABLISHED: ('127.0.0.1', 35332)
+[2025-03-30 21:16:22] Received: x = 0.67, y = 0.08, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:19:21] CONNECTION ESTABLISHED: ('127.0.0.1', 54094)
+[2025-03-30 21:19:21] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:19:21] CONNECTION ESTABLISHED: ('127.0.0.1', 54096)
+[2025-03-30 21:19:22] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:19:22] CONNECTION ESTABLISHED: ('127.0.0.1', 54100)
+[2025-03-30 21:19:22] Received: x = 0.274, y = 0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:19:22] CONNECTION ESTABLISHED: ('127.0.0.1', 54110)
+[2025-03-30 21:19:22] Received: x = 0.48, y = 0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:19:22] CONNECTION ESTABLISHED: ('127.0.0.1', 54112)
+[2025-03-30 21:19:22] Received: x = 0.67, y = 0.08, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:19:58] CONNECTION ESTABLISHED: ('127.0.0.1', 46870)
+[2025-03-30 21:19:59] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:20:30] CONNECTION ESTABLISHED: ('127.0.0.1', 57702)
+[2025-03-30 21:20:31] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:20:31] CONNECTION ESTABLISHED: ('127.0.0.1', 57708)
+[2025-03-30 21:20:31] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:20:44] CONNECTION ESTABLISHED: ('127.0.0.1', 42306)
+[2025-03-30 21:20:44] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:20:44] CONNECTION ESTABLISHED: ('127.0.0.1', 42308)
+[2025-03-30 21:20:44] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:21:02] CONNECTION ESTABLISHED: ('127.0.0.1', 33988)
+[2025-03-30 21:21:02] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:21:02] CONNECTION ESTABLISHED: ('127.0.0.1', 34002)
+[2025-03-30 21:21:02] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:21:37] CONNECTION ESTABLISHED: ('127.0.0.1', 45396)
+[2025-03-30 21:21:37] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:21:38] CONNECTION ESTABLISHED: ('127.0.0.1', 45410)
+[2025-03-30 21:21:38] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:21:39] CONNECTION ESTABLISHED: ('127.0.0.1', 45420)
+[2025-03-30 21:21:40] Received: x = 0.274, y = 0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:21:41] CONNECTION ESTABLISHED: ('127.0.0.1', 45428)
+[2025-03-30 21:21:41] Received: x = 0.48, y = 0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:21:42] CONNECTION ESTABLISHED: ('127.0.0.1', 45434)
+[2025-03-30 21:21:42] Received: x = 0.67, y = 0.08, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:21:58] CONNECTION ESTABLISHED: ('127.0.0.1', 53374)
+[2025-03-30 21:21:58] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:22:00] CONNECTION ESTABLISHED: ('127.0.0.1', 53388)
+[2025-03-30 21:22:00] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:22:01] CONNECTION ESTABLISHED: ('127.0.0.1', 53404)
+[2025-03-30 21:22:01] Received: x = 0.274, y = 0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:22:04] CONNECTION ESTABLISHED: ('127.0.0.1', 53418)
+[2025-03-30 21:22:05] Received: x = 0.48, y = 0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:22:06] CONNECTION ESTABLISHED: ('127.0.0.1', 53426)
+[2025-03-30 21:22:06] Received: x = 0.67, y = 0.08, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:25:22] CONNECTION ESTABLISHED: ('127.0.0.1', 37434)
+[2025-03-30 21:25:22] Received: x = 0, y = 0.05, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:25:22] ValueError during move_end_effector: Servo 5: angle -122.22676345473411 out of range (0 to 180)
+[2025-03-30 21:25:32] CONNECTION ESTABLISHED: ('127.0.0.1', 52132)
+[2025-03-30 21:25:33] Received: x = 0.04713112, y = 0.5380404, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:25:39] CONNECTION ESTABLISHED: ('127.0.0.1', 55644)
+[2025-03-30 21:25:40] Received: x = 0.1523617, y = 0.6187278, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:25:46] CONNECTION ESTABLISHED: ('127.0.0.1', 55660)
+[2025-03-30 21:25:47] Received: x = -0.1917861, y = 0.4858736, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:25:53] CONNECTION ESTABLISHED: ('127.0.0.1', 35512)
+[2025-03-30 21:25:54] Received: x = 0.2818657, y = 0.589759, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:26:00] CONNECTION ESTABLISHED: ('127.0.0.1', 37338)
+[2025-03-30 21:26:02] Received: x = 0.02864344, y = 0.6146421, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:26:08] CONNECTION ESTABLISHED: ('127.0.0.1', 55916)
+[2025-03-30 21:26:09] Received: x = 0.01884287, y = 0.6187471, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:26:15] CONNECTION ESTABLISHED: ('127.0.0.1', 55918)
+[2025-03-30 21:26:16] Received: x = 0.04804865, y = 0.4230342, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:26:22] CONNECTION ESTABLISHED: ('127.0.0.1', 44286)
+[2025-03-30 21:26:23] Received: x = -0.08620013, y = 0.5876045, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:26:29] CONNECTION ESTABLISHED: ('127.0.0.1', 45422)
+[2025-03-30 21:26:30] Received: x = 0.03892891, y = 0.6942094, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:26:36] CONNECTION ESTABLISHED: ('127.0.0.1', 45436)
+[2025-03-30 21:26:37] Received: x = 0.06445532, y = 0.695228, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:26:44] CONNECTION ESTABLISHED: ('127.0.0.1', 40070)
+[2025-03-30 21:26:45] Received: x = 0.05047329, y = 0.6558743, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:26:51] CONNECTION ESTABLISHED: ('127.0.0.1', 50576)
+[2025-03-30 21:26:52] Received: x = 0.04964774, y = 0.6604602, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:26:58] CONNECTION ESTABLISHED: ('127.0.0.1', 47524)
+[2025-03-30 21:26:59] Received: x = 0.04801489, y = 0.6627275, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:27:06] CONNECTION ESTABLISHED: ('127.0.0.1', 47538)
+[2025-03-30 21:27:07] Received: x = 0.0907337, y = 0.6208414, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:27:13] CONNECTION ESTABLISHED: ('127.0.0.1', 60648)
+[2025-03-30 21:27:14] Received: x = -0.09610209, y = 0.5105115, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:27:20] CONNECTION ESTABLISHED: ('127.0.0.1', 59634)
+[2025-03-30 21:27:21] Received: x = -0.09289046, y = 0.5564803, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:27:28] CONNECTION ESTABLISHED: ('127.0.0.1', 59314)
+[2025-03-30 21:27:29] Received: x = 0.04821476, y = 0.5048236, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:27:35] CONNECTION ESTABLISHED: ('127.0.0.1', 59330)
+[2025-03-30 21:27:36] Received: x = 0.09608295, y = 0.4390952, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:27:42] CONNECTION ESTABLISHED: ('127.0.0.1', 35142)
+[2025-03-30 21:27:43] Received: x = 0.04196468, y = 0.4228439, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:27:49] CONNECTION ESTABLISHED: ('127.0.0.1', 36790)
+[2025-03-30 21:27:51] Received: x = -0.001050374, y = 0.4088306, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:27:57] CONNECTION ESTABLISHED: ('127.0.0.1', 36806)
+[2025-03-30 21:27:58] Received: x = 0.0005861502, y = 0.4111423, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:28:04] CONNECTION ESTABLISHED: ('127.0.0.1', 57670)
+[2025-03-30 21:28:05] Received: x = 0.0009899344, y = 0.4197644, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:28:11] CONNECTION ESTABLISHED: ('127.0.0.1', 56108)
+[2025-03-30 21:28:12] Received: x = 0.1818753, y = 0.4645761, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:28:19] CONNECTION ESTABLISHED: ('127.0.0.1', 52458)
+[2025-03-30 21:28:20] Received: x = 0.3730939, y = 0.4521693, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:28:26] CONNECTION ESTABLISHED: ('127.0.0.1', 52472)
+[2025-03-30 21:28:27] Received: x = 0.1165968, y = 0.4128901, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:28:33] CONNECTION ESTABLISHED: ('127.0.0.1', 53034)
+[2025-03-30 21:28:34] Received: x = 0.4674487, y = 0.5551501, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:28:41] CONNECTION ESTABLISHED: ('127.0.0.1', 39418)
+[2025-03-30 21:28:42] Received: x = 0.5214888, y = 0.5143256, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:28:48] CONNECTION ESTABLISHED: ('127.0.0.1', 51418)
+[2025-03-30 21:29:08] CONNECTION ESTABLISHED: ('127.0.0.1', 48658)
+[2025-03-30 21:29:08] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:29:09] CONNECTION ESTABLISHED: ('127.0.0.1', 48662)
+[2025-03-30 21:29:09] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:29:10] CONNECTION ESTABLISHED: ('127.0.0.1', 48664)
+[2025-03-30 21:29:11] Received: x = 0.274, y = 0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:29:12] CONNECTION ESTABLISHED: ('127.0.0.1', 48680)
+[2025-03-30 21:29:12] Received: x = 0.48, y = 0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:29:40] CONNECTION ESTABLISHED: ('127.0.0.1', 53548)
+[2025-03-30 21:29:40] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:29:41] CONNECTION ESTABLISHED: ('127.0.0.1', 53554)
+[2025-03-30 21:29:41] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:29:43] CONNECTION ESTABLISHED: ('127.0.0.1', 53564)
+[2025-03-30 21:29:43] Received: x = 0.274, y = 0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:29:44] CONNECTION ESTABLISHED: ('127.0.0.1', 53566)
+[2025-03-30 21:29:44] Received: x = 0.48, y = 0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:29:45] CONNECTION ESTABLISHED: ('127.0.0.1', 53568)
+[2025-03-30 21:29:45] Received: x = 0.67, y = 0.08, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:29:53] Shutting down server due to system signal...
+[2025-03-30 21:30:14] TCP Server Application Started
+[2025-03-30 21:30:14] Connection to remote log stream on: 0.0.0.0:5000
+[2025-03-30 21:30:14] TCP Server listening on 0.0.0.0:65432...
+[2025-03-30 21:30:39] CONNECTION ESTABLISHED: ('127.0.0.1', 47846)
+[2025-03-30 21:30:39] Received: x = 0, y = 0.05, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:30:39] ValueError during move_end_effector: Servo 5: angle -122.22676345473411 out of range (0 to 180)
+[2025-03-30 21:30:53] CONNECTION ESTABLISHED: ('127.0.0.1', 46422)
+[2025-03-30 21:30:54] Received: x = 0.04590155, y = 0.5805396, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:31:00] CONNECTION ESTABLISHED: ('127.0.0.1', 36326)
+[2025-03-30 21:31:01] Received: x = 0.0954289, y = 0.6307344, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:31:07] CONNECTION ESTABLISHED: ('127.0.0.1', 52968)
+[2025-03-30 21:31:08] Received: x = 0.4447947, y = 0.516469, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:31:15] CONNECTION ESTABLISHED: ('127.0.0.1', 52972)
+[2025-03-30 21:31:16] Received: x = 0.2109496, y = 0.6034049, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:31:22] CONNECTION ESTABLISHED: ('127.0.0.1', 38578)
+[2025-03-30 21:31:23] Received: x = -0.1612944, y = 0.5712693, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:31:29] CONNECTION ESTABLISHED: ('127.0.0.1', 41666)
+[2025-03-30 21:31:30] Received: x = -0.1776445, y = 0.5646083, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:31:37] CONNECTION ESTABLISHED: ('127.0.0.1', 41668)
+[2025-03-30 21:31:37] Received: x = 0.4147071, y = 0.5498106, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:31:44] CONNECTION ESTABLISHED: ('127.0.0.1', 60036)
+[2025-03-30 21:31:45] Received: x = 0.3892148, y = 0.5586972, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:31:51] CONNECTION ESTABLISHED: ('127.0.0.1', 47924)
+[2025-03-30 21:31:52] Received: x = 0.7421514, y = 0.1088193, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:31:58] CONNECTION ESTABLISHED: ('127.0.0.1', 46524)
+[2025-03-30 21:31:59] Received: x = 0.8435345, y = 0.003509987, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:32:06] CONNECTION ESTABLISHED: ('127.0.0.1', 46530)
+[2025-03-30 21:32:06] Received: x = 0.8549521, y = -0.04542906, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:32:13] CONNECTION ESTABLISHED: ('127.0.0.1', 42302)
+[2025-03-30 21:32:14] Received: x = 0.4929072, y = 0.4710784, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:32:20] CONNECTION ESTABLISHED: ('127.0.0.1', 43312)
+[2025-03-30 21:32:21] Received: x = 0.004689534, y = 0.5980464, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:32:27] CONNECTION ESTABLISHED: ('127.0.0.1', 44550)
+[2025-03-30 21:32:28] Received: x = -0.402692, y = 0.3376207, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:32:35] CONNECTION ESTABLISHED: ('127.0.0.1', 44556)
+[2025-03-30 21:32:36] Received: x = -0.3709713, y = 0.4664239, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:32:42] CONNECTION ESTABLISHED: ('127.0.0.1', 56782)
+[2025-03-30 21:32:43] Received: x = -0.5534244, y = 0.01076327, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:32:43] ValueError during move_end_effector: Servo 5: angle -127.38810509584951 out of range (0 to 180)
+[2025-03-30 21:32:49] CONNECTION ESTABLISHED: ('127.0.0.1', 46468)
+[2025-03-30 21:32:50] Received: x = 0.01121129, y = 0.5923442, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:32:56] CONNECTION ESTABLISHED: ('127.0.0.1', 46478)
+[2025-03-30 21:32:57] Received: x = 0.5715944, y = 0.3944732, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:33:04] CONNECTION ESTABLISHED: ('127.0.0.1', 52650)
+[2025-03-30 21:33:05] Received: x = 0.437995, y = 0.5061558, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:33:11] CONNECTION ESTABLISHED: ('127.0.0.1', 56364)
+[2025-03-30 21:33:12] Received: x = 0.7730326, y = 0.04960652, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:33:18] CONNECTION ESTABLISHED: ('127.0.0.1', 52210)
+[2025-03-30 21:33:19] Received: x = 0.07667346, y = 0.301339, z = 1, phi = 0, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:38:43] CONNECTION ESTABLISHED: ('127.0.0.1', 39974)
+[2025-03-30 21:38:44] Received: x = 0, y = 0.05, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:38:44] ValueError during move_end_effector: Servo 5: angle -12.504272219579974 out of range (0 to 180)
+[2025-03-30 21:38:59] CONNECTION ESTABLISHED: ('127.0.0.1', 57514)
+[2025-03-30 21:39:00] Received: x = 0.2502147, y = -0.1513988, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:39:00] ValueError during move_end_effector: Servo 5: angle -2.7841162102526154 out of range (0 to 180)
+[2025-03-30 21:39:06] CONNECTION ESTABLISHED: ('127.0.0.1', 57520)
+[2025-03-30 21:39:07] Received: x = 0.4369418, y = -0.1217256, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:39:07] ValueError during move_end_effector: Servo 5: angle -20.600687283483136 out of range (0 to 180)
+[2025-03-30 21:39:55] CONNECTION ESTABLISHED: ('127.0.0.1', 54920)
+[2025-03-30 21:39:55] Received: x = 0, y = 0.05, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:39:55] ValueError during move_end_effector: Servo 5: angle -12.504272219579974 out of range (0 to 180)
+[2025-03-30 21:40:09] CONNECTION ESTABLISHED: ('127.0.0.1', 46492)
+[2025-03-30 21:40:10] Received: x = 0.2943425, y = -0.0931641, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:40:10] ValueError during move_end_effector: Servo 5: angle -13.91348112334393 out of range (0 to 180)
+[2025-03-30 21:40:17] CONNECTION ESTABLISHED: ('127.0.0.1', 46504)
+[2025-03-30 21:40:18] Received: x = 0.4657352, y = -0.06528334, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:40:18] ValueError during move_end_effector: Servo 5: angle -19.425208389480513 out of range (0 to 180)
+[2025-03-30 21:40:24] CONNECTION ESTABLISHED: ('127.0.0.1', 34804)
+[2025-03-30 21:40:25] Received: x = 0.4034218, y = 0.1721604, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:40:25] ValueError during move_end_effector: Servo 5: angle -20.013293023884543 out of range (0 to 180)
+[2025-03-30 21:40:31] CONNECTION ESTABLISHED: ('127.0.0.1', 43148)
+[2025-03-30 21:40:32] Received: x = 0.02087985, y = 0.3880752, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:40:32] ValueError during move_end_effector: Servo 5: angle -19.805458023491 out of range (0 to 180)
+[2025-03-30 21:40:39] CONNECTION ESTABLISHED: ('127.0.0.1', 38928)
+[2025-03-30 21:40:40] Received: x = 0.01234224, y = 0.3774662, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:40:40] ValueError during move_end_effector: Servo 5: angle -20.330844775636496 out of range (0 to 180)
+[2025-03-30 21:40:46] CONNECTION ESTABLISHED: ('127.0.0.1', 38942)
+[2025-03-30 21:40:47] Received: x = 0.03914296, y = 0.3444267, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:40:47] ValueError during move_end_effector: Servo 5: angle -22.02014856797051 out of range (0 to 180)
+[2025-03-30 21:40:53] CONNECTION ESTABLISHED: ('127.0.0.1', 39486)
+[2025-03-30 21:40:54] Received: x = 0.2772486, y = -0.335613, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:40:54] ValueError during move_end_effector: Servo 5: angle -8.19738149589702 out of range (0 to 180)
+[2025-03-30 21:41:00] CONNECTION ESTABLISHED: ('127.0.0.1', 51662)
+[2025-03-30 21:41:01] Received: x = 0.2128605, y = -0.0840719, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:41:01] ValueError during move_end_effector: Servo 3: angle 168.42960514157463 out of range (-103 to 120)
+[2025-03-30 21:41:08] CONNECTION ESTABLISHED: ('127.0.0.1', 53350)
+[2025-03-30 21:41:09] Received: x = 0.2162721, y = -0.111413, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:41:09] ValueError during move_end_effector: Servo 3: angle 167.2675111030276 out of range (-103 to 120)
+[2025-03-30 21:42:04] CONNECTION ESTABLISHED: ('127.0.0.1', 56264)
+[2025-03-30 21:42:05] Received: x = 0, y = 0.05, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:42:05] ValueError during move_end_effector: Servo 5: angle -12.504272219579974 out of range (0 to 180)
+[2025-03-30 21:42:19] CONNECTION ESTABLISHED: ('127.0.0.1', 46818)
+[2025-03-30 21:42:20] Received: x = 0.5724211, y = 0.04294192, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:42:20] ValueError during move_end_effector: Servo 5: angle -17.087650305701555 out of range (0 to 180)
+[2025-03-30 21:42:26] CONNECTION ESTABLISHED: ('127.0.0.1', 46828)
+[2025-03-30 21:42:27] Received: x = 0.5717225, y = -0.008213114, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:42:27] ValueError during move_end_effector: Servo 5: angle -17.156756090722745 out of range (0 to 180)
+[2025-03-30 21:42:33] CONNECTION ESTABLISHED: ('127.0.0.1', 55408)
+[2025-03-30 21:42:34] Received: x = 0.5678319, y = 0.09537534, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:42:34] ValueError during move_end_effector: Servo 5: angle -16.815220101535775 out of range (0 to 180)
+[2025-03-30 21:42:41] CONNECTION ESTABLISHED: ('127.0.0.1', 54226)
+[2025-03-30 21:42:42] Received: x = 0.2323679, y = 0.01861292, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:42:42] ValueError during move_end_effector: Servo 5: angle -0.5933198630802476 out of range (0 to 180)
+[2025-03-30 21:42:48] CONNECTION ESTABLISHED: ('127.0.0.1', 35888)
+[2025-03-30 21:42:49] Received: x = 0.1570076, y = -0.6450666, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:42:49] ValueError during move_end_effector: Servo 3: angle 187.18039539496797 out of range (-103 to 120)
+[2025-03-30 21:42:56] CONNECTION ESTABLISHED: ('127.0.0.1', 35896)
+[2025-03-30 21:42:57] Received: x = 0.2970412, y = 0.04930823, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:42:57] ValueError during move_end_effector: Servo 5: angle -18.31372716310752 out of range (0 to 180)
+[2025-03-30 21:43:04] CONNECTION ESTABLISHED: ('127.0.0.1', 45664)
+[2025-03-30 21:43:05] Received: x = 0.5770776, y = 0.0105366, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:43:05] ValueError during move_end_effector: Servo 5: angle -17.15316273304486 out of range (0 to 180)
+[2025-03-30 21:43:11] CONNECTION ESTABLISHED: ('127.0.0.1', 41220)
+[2025-03-30 21:43:12] Received: x = 0.5738382, y = 0.008188713, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:43:12] ValueError during move_end_effector: Servo 5: angle -17.154714002212685 out of range (0 to 180)
+[2025-03-30 21:43:18] CONNECTION ESTABLISHED: ('127.0.0.1', 45216)
+[2025-03-30 21:43:19] Received: x = 0.4787471, y = 0.3253697, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:43:19] ValueError during move_end_effector: Servo 5: angle -15.014557458318672 out of range (0 to 180)
+[2025-03-30 21:43:26] CONNECTION ESTABLISHED: ('127.0.0.1', 45228)
+[2025-03-30 21:43:27] Received: x = 0.9280989, y = 0.3114, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:43:27] ValueError during move_end_effector: Servo 5: angle -14.278335991754508 out of range (0 to 180)
+[2025-03-30 21:43:33] CONNECTION ESTABLISHED: ('127.0.0.1', 42442)
+[2025-03-30 21:43:34] Received: x = 0.9256399, y = 0.31716, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:43:34] ValueError during move_end_effector: Servo 5: angle -14.196845880311901 out of range (0 to 180)
+[2025-03-30 21:43:43] Shutting down server due to system signal...
+[2025-03-30 21:44:22] TCP Server Application Started
+[2025-03-30 21:44:22] Connection to remote log stream on: 0.0.0.0:5000
+[2025-03-30 21:44:22] TCP Server listening on 0.0.0.0:65432...
+[2025-03-30 21:44:26] CONNECTION ESTABLISHED: ('127.0.0.1', 45300)
+[2025-03-30 21:44:27] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:44:36] Shutting down server due to system signal...
+[2025-03-30 21:44:45] TCP Server Application Started
+[2025-03-30 21:44:46] Connection to remote log stream on: 0.0.0.0:5000
+[2025-03-30 21:44:46] TCP Server listening on 0.0.0.0:65432...
+[2025-03-30 21:45:04] Shutting down server due to system signal...
+[2025-03-30 21:45:12] TCP Server Application Started
+[2025-03-30 21:45:12] Connection to remote log stream on: 0.0.0.0:5000
+[2025-03-30 21:45:12] TCP Server listening on 0.0.0.0:65432...
+[2025-03-30 21:45:36] CONNECTION ESTABLISHED: ('127.0.0.1', 48944)
+[2025-03-30 21:45:36] Received: x = 0, y = 0.05, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:45:36] ValueError during move_end_effector: Servo 5: angle -12.504272219579974 out of range (0 to 180)
+[2025-03-30 21:45:50] CONNECTION ESTABLISHED: ('127.0.0.1', 40958)
+[2025-03-30 21:45:51] Received: x = 0.5149745, y = 0.03348165, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:45:51] ValueError during move_end_effector: Servo 5: angle -17.64359300436414 out of range (0 to 180)
+[2025-03-30 21:45:57] CONNECTION ESTABLISHED: ('127.0.0.1', 37350)
+[2025-03-30 21:45:58] Received: x = 0.5567557, y = 0.02454041, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:45:58] ValueError during move_end_effector: Servo 5: angle -17.134896266571634 out of range (0 to 180)
+[2025-03-30 21:46:04] CONNECTION ESTABLISHED: ('127.0.0.1', 37362)
+[2025-03-30 21:46:06] Received: x = 0.56344, y = 0.03661834, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:46:06] ValueError during move_end_effector: Servo 5: angle -17.106833510150043 out of range (0 to 180)
+[2025-03-30 21:46:12] CONNECTION ESTABLISHED: ('127.0.0.1', 50116)
+[2025-03-30 21:46:13] Received: x = 0.5498793, y = 0.08883457, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:46:13] ValueError during move_end_effector: Servo 5: angle -16.859739914025198 out of range (0 to 180)
+[2025-03-30 21:46:19] CONNECTION ESTABLISHED: ('127.0.0.1', 57214)
+[2025-03-30 21:46:20] Received: x = 0.5523363, y = 0.01264982, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:46:20] ValueError during move_end_effector: Servo 5: angle -17.15139419442123 out of range (0 to 180)
+[2025-03-30 21:46:26] CONNECTION ESTABLISHED: ('127.0.0.1', 57216)
+[2025-03-30 21:46:27] Received: x = 0.5605733, y = 0.02000539, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:46:27] ValueError during move_end_effector: Servo 5: angle -17.14249799919121 out of range (0 to 180)
+[2025-03-30 21:46:34] CONNECTION ESTABLISHED: ('127.0.0.1', 50256)
+[2025-03-30 21:46:35] Received: x = 0.5618443, y = 0.005000044, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:46:35] ValueError during move_end_effector: Servo 5: angle -17.156123743841604 out of range (0 to 180)
+[2025-03-30 21:46:41] CONNECTION ESTABLISHED: ('127.0.0.1', 57770)
+[2025-03-30 21:46:42] Received: x = 0.4238771, y = 0.09224282, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:46:42] ValueError during move_end_effector: Servo 5: angle -20.586533477383913 out of range (0 to 180)
+[2025-03-30 21:46:48] CONNECTION ESTABLISHED: ('127.0.0.1', 60706)
+[2025-03-30 21:46:49] Received: x = 0.4727386, y = 0.08056645, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:46:49] ValueError during move_end_effector: Servo 5: angle -18.81926938738022 out of range (0 to 180)
+[2025-03-30 21:46:55] CONNECTION ESTABLISHED: ('127.0.0.1', 60716)
+[2025-03-30 21:46:56] Received: x = 0.4905396, y = 0.1225845, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:46:56] ValueError during move_end_effector: Servo 5: angle -17.818457195911467 out of range (0 to 180)
+[2025-03-30 21:47:03] CONNECTION ESTABLISHED: ('127.0.0.1', 33002)
+[2025-03-30 21:47:04] Received: x = 0.4616171, y = 0.06382222, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:47:04] ValueError during move_end_effector: Servo 5: angle -19.357284578091416 out of range (0 to 180)
+[2025-03-30 21:47:10] CONNECTION ESTABLISHED: ('127.0.0.1', 42740)
+[2025-03-30 21:47:11] Received: x = 0.4738157, y = 0.06525795, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:47:11] ValueError during move_end_effector: Servo 5: angle -18.896215939697672 out of range (0 to 180)
+[2025-03-30 21:47:17] CONNECTION ESTABLISHED: ('127.0.0.1', 50748)
+[2025-03-30 21:47:18] Received: x = 0.470758, y = 0.07699268, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:47:18] ValueError during move_end_effector: Servo 5: angle -18.919450866105798 out of range (0 to 180)
+[2025-03-30 21:47:25] CONNECTION ESTABLISHED: ('127.0.0.1', 50760)
+[2025-03-30 21:47:26] Received: x = 0.4654189, y = 0.08495985, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:47:26] ValueError during move_end_effector: Servo 5: angle -19.044399014822947 out of range (0 to 180)
+[2025-03-30 21:47:32] CONNECTION ESTABLISHED: ('127.0.0.1', 50978)
+[2025-03-30 21:47:33] Received: x = 0.4487805, y = 0.08961858, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:47:33] ValueError during move_end_effector: Servo 5: angle -19.61972971525335 out of range (0 to 180)
+[2025-03-30 21:47:40] CONNECTION ESTABLISHED: ('127.0.0.1', 39356)
+[2025-03-30 21:47:40] Received: x = 0.4578439, y = 0.0373789, z = 1, phi = 90, wrist = 0, grip = 0, gas = 0
+[2025-03-30 21:47:40] ValueError during move_end_effector: Servo 5: angle -19.65519792402387 out of range (0 to 180)
+[2025-03-30 21:47:44] Shutting down server due to system signal...
+[2025-03-30 21:49:35] TCP Server Application Started
+[2025-03-30 21:49:35] Connection to remote log stream on: 0.0.0.0:5000
+[2025-03-30 21:49:35] TCP Server listening on 0.0.0.0:65432...
+[2025-03-30 21:49:39] CONNECTION ESTABLISHED: ('127.0.0.1', 51358)
+[2025-03-30 21:49:39] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:49:53] CONNECTION ESTABLISHED: ('127.0.0.1', 47854)
+[2025-03-30 21:49:53] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:50:13] CONNECTION ESTABLISHED: ('127.0.0.1', 43968)
+[2025-03-30 21:50:13] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:50:14] CONNECTION ESTABLISHED: ('127.0.0.1', 43982)
+[2025-03-30 21:50:14] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:50:15] CONNECTION ESTABLISHED: ('127.0.0.1', 43988)
+[2025-03-30 21:50:15] Received: x = 0.274, y = 0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:50:16] CONNECTION ESTABLISHED: ('127.0.0.1', 43994)
+[2025-03-30 21:50:17] Received: x = 0.48, y = 0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:50:18] CONNECTION ESTABLISHED: ('127.0.0.1', 33674)
+[2025-03-30 21:50:18] Received: x = 0.67, y = 0.08, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:51:34] CONNECTION ESTABLISHED: ('127.0.0.1', 48350)
+[2025-03-30 21:51:34] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:51:35] CONNECTION ESTABLISHED: ('127.0.0.1', 48358)
+[2025-03-30 21:51:35] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:51:37] CONNECTION ESTABLISHED: ('127.0.0.1', 48364)
+[2025-03-30 21:51:37] Received: x = 0.274, y = 0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:51:38] CONNECTION ESTABLISHED: ('127.0.0.1', 51744)
+[2025-03-30 21:51:38] Received: x = 0.48, y = 0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:51:39] CONNECTION ESTABLISHED: ('127.0.0.1', 51746)
+[2025-03-30 21:51:39] Received: x = 0.67, y = 0.08, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:51:40] CONNECTION ESTABLISHED: ('127.0.0.1', 51752)
+[2025-03-30 21:51:40] Received: x = 0.48, y = -0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:51:42] CONNECTION ESTABLISHED: ('127.0.0.1', 51766)
+[2025-03-30 21:51:42] Received: x = 0.274, y = -0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:51:42] ValueError during move_end_effector: Servo 4: angle -149.6319971540728 out of range (-135 to 127)
+[2025-03-30 21:51:43] CONNECTION ESTABLISHED: ('127.0.0.1', 51768)
+[2025-03-30 21:51:43] Received: x = 0.15, y = -0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:51:43] ValueError during move_end_effector: Servo 5: angle -107.93502326751631 out of range (0 to 180)
+[2025-03-30 21:51:44] CONNECTION ESTABLISHED: ('127.0.0.1', 51778)
+[2025-03-30 21:51:44] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 21:59:16] Shutting down server due to system signal...
+[2025-03-30 22:07:27] TCP Server Application Started
+[2025-03-30 22:07:27] Connection to remote log stream on: 0.0.0.0:5000
+[2025-03-30 22:07:27] TCP Server listening on 0.0.0.0:65432...
+[2025-03-30 22:07:37] CONNECTION ESTABLISHED: ('127.0.0.1', 44508)
+[2025-03-30 22:07:37] Received: x = 0.48, y = -0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:08:18] CONNECTION ESTABLISHED: ('127.0.0.1', 60984)
+[2025-03-30 22:08:18] Received: x = 0.48, y = -0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:08:20] CONNECTION ESTABLISHED: ('127.0.0.1', 60998)
+[2025-03-30 22:08:20] Received: x = 0.274, y = -0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:09:11] CONNECTION ESTABLISHED: ('127.0.0.1', 42164)
+[2025-03-30 22:09:11] Received: x = 0.48, y = -0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:09:12] CONNECTION ESTABLISHED: ('127.0.0.1', 42174)
+[2025-03-30 22:09:12] Received: x = 0.274, y = -0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:09:13] CONNECTION ESTABLISHED: ('127.0.0.1', 42178)
+[2025-03-30 22:09:14] Received: x = 0.13, y = -0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:09:33] Shutting down server due to system signal...
+[2025-03-30 22:10:05] TCP Server Application Started
+[2025-03-30 22:10:05] Connection to remote log stream on: 0.0.0.0:5000
+[2025-03-30 22:10:05] TCP Server listening on 0.0.0.0:65432...
+[2025-03-30 22:10:07] CONNECTION ESTABLISHED: ('127.0.0.1', 58820)
+[2025-03-30 22:10:08] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:09] CONNECTION ESTABLISHED: ('127.0.0.1', 58836)
+[2025-03-30 22:10:09] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:10] CONNECTION ESTABLISHED: ('127.0.0.1', 58846)
+[2025-03-30 22:10:10] Received: x = 0.274, y = 0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:11] CONNECTION ESTABLISHED: ('127.0.0.1', 58850)
+[2025-03-30 22:10:11] Received: x = 0.48, y = 0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:12] CONNECTION ESTABLISHED: ('127.0.0.1', 58862)
+[2025-03-30 22:10:13] Received: x = 0.67, y = 0.08, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:14] CONNECTION ESTABLISHED: ('127.0.0.1', 58866)
+[2025-03-30 22:10:14] Received: x = 0.48, y = -0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:15] CONNECTION ESTABLISHED: ('127.0.0.1', 58882)
+[2025-03-30 22:10:15] Received: x = 0.274, y = -0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:16] CONNECTION ESTABLISHED: ('127.0.0.1', 58898)
+[2025-03-30 22:10:16] Received: x = 0.15, y = -0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:17] CONNECTION ESTABLISHED: ('127.0.0.1', 44876)
+[2025-03-30 22:10:18] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:27] CONNECTION ESTABLISHED: ('127.0.0.1', 39212)
+[2025-03-30 22:10:27] Received: x = 0.001, y = 0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:29] CONNECTION ESTABLISHED: ('127.0.0.1', 39216)
+[2025-03-30 22:10:29] Received: x = 0.15, y = 0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:30] CONNECTION ESTABLISHED: ('127.0.0.1', 39232)
+[2025-03-30 22:10:30] Received: x = 0.274, y = 0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:31] CONNECTION ESTABLISHED: ('127.0.0.1', 39244)
+[2025-03-30 22:10:31] Received: x = 0.48, y = 0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:32] CONNECTION ESTABLISHED: ('127.0.0.1', 39250)
+[2025-03-30 22:10:32] Received: x = 0.67, y = 0.08, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:34] CONNECTION ESTABLISHED: ('127.0.0.1', 39254)
+[2025-03-30 22:10:34] Received: x = 0.48, y = -0.16, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:35] CONNECTION ESTABLISHED: ('127.0.0.1', 39260)
+[2025-03-30 22:10:35] Received: x = 0.274, y = -0.275, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:36] CONNECTION ESTABLISHED: ('127.0.0.1', 39268)
+[2025-03-30 22:10:36] Received: x = 0.15, y = -0.33, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
+[2025-03-30 22:10:37] CONNECTION ESTABLISHED: ('127.0.0.1', 39142)
+[2025-03-30 22:10:37] Received: x = 0.001, y = -0.445, z = 0, phi = 0, wrist = 90, grip = 900, gas = 1000
