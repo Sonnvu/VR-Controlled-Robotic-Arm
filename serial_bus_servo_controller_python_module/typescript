@@ -1,0 +1,85 @@
+Script started on 2025-02-12 10:30:28-05:00 [TERM="xterm" TTY="/dev/pts/1" COLUMNS="107" LINES="24"]
+[?2004h]0;seniord@raspberrypi: ~/ECE_1896/xarm_case_a/serial_bus_servo_controller_python_module[01;32mseniord@raspberrypi[00m:[01;34m~/ECE_1896/xarm_case_a/serial_bus_servo_controller_python_module $[00m ls
+[?2004l[0m[01;34mimages[0m  LICENSE  README.md  [01;34mscripts[0m  typescript
+[?2004h]0;seniord@raspberrypi: ~/ECE_1896/xarm_case_a/serial_bus_servo_controller_python_module[01;32mseniord@raspberrypi[00m:[01;34m~/ECE_1896/xarm_case_a/serial_bus_servo_controller_python_module $[00m cd [K[K[Krm[K[Kcd [K[K[Kvim rea[K[K[KREADME.md
+[?2004lbash: vim: command not found
+[?2004h]0;seniord@raspberrypi: ~/ECE_1896/xarm_case_a/serial_bus_servo_controller_python_module[01;32mseniord@raspberrypi[00m:[01;34m~/ECE_1896/xarm_case_a/serial_bus_servo_controller_python_module $[00m vim README.md
+[?2004l[?1006;1000h[?1002h[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"README.md" 66L, 2454B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1H[35m# [m[35mserial[m[1m[37m[41m_[m[35mbus[m[1m[37m[41m_[m[35mservo[m[1m[37m[41m_[m[35mcontroller[m[1m[37m[41m_[m[35mpython[m[1m[37m[41m_[m[35mmodule[m
+This is a python module to control serial servos (such as LX-224) connected to a serial bus servo controllee[3;1Hr from a windows machine or a linux machine (such as Raspberry Pi).[3;68H[K[5;1HLX-224 (https://www.hiwonder.hk/products/hiwonder-lx-224-intelligent-serial-bus-servo)[36m</[m[33mbr[m[36m>[m
+serial bus servo controller (https://www.hiwonder.hk/collections/servo/products/serial-bus-servo-controllerr[7;1H)
+
+[35m# [m[35mIntroduction[m
+In order to make a robot, I used hiwonder's servo (LX-224) and control board (serial bus servo controller),,[11;1H and I tried to control it from python by connecting raspberry pi and control board via USB serial connectii[12;1Hon. However, there was not much information available, it took a lot of time until I was able to use it.
+
+In consideration of future use, I created a python module to control the servo from a PC through the controo[15;1Hl board.
+
+I hope it will be usefull for those who are looking for the same kind of usage as me.
+
+[35m# [m[35mConnection method[m
+The main connection procedure is in the following three steps.
+
+[33m1.[m Connect the serial pins of the control board to the USB serial converter.
+[33m1.[m Connect the USB serial converter to the PC (such as raspberry pi).[24;90H1,1[11CTop[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\P$q q\[?12$p[?25l[24;80H0[1;1H[24;81H0[1;1H[24;82H0[1;1H[24;83H/[1;1H[24;84H0[1;1H[24;85H0[1;1H[24;86H0[1;1H[24;87H0[1;1H[24;88H/[1;1H[24;89H0[1;1H[24;80H          [1;1H[27m[23m[29m[m[H[2J[1;1H[1m[31m# [m[1m[35mserial[m[1m[37m[41m_[m[1m[35mbus[m[1m[37m[41m_[m[1m[35mservo[m[1m[37m[41m_[m[1m[35mcontroller[m[1m[37m[41m_[m[1m[35mpython[m[1m[37m[41m_[m[1m[35mmodule[m
+This is a python module to control serial servos (such as LX-224) connected to a serial bus servo controllee[3;1Hr from a windows machine or a linux machine (such as Raspberry Pi).
+
+LX-224 (https://www.hiwonder.hk/products/hiwonder-lx-224-intelligent-serial-bus-servo)[1m[36m</[m[1m[33mbr[m[1m[36m>[m
+serial bus servo controller (https://www.hiwonder.hk/collections/servo/products/serial-bus-servo-controllerr[7;1H)
+
+[1m[31m# [m[1m[35mIntroduction[m
+In order to make a robot, I used hiwonder's servo (LX-224) and control board (serial bus servo controller),,[11;1H and I tried to control it from python by connecting raspberry pi and control board via USB serial connectii[12;1Hon. However, there was not much information available, it took a lot of time until I was able to use it.
+
+In consideration of future use, I created a python module to control the servo from a PC through the controo[15;1Hl board.
+
+I hope it will be usefull for those who are looking for the same kind of usage as me.
+
+[1m[31m# [m[1m[35mConnection method[m
+The main connection procedure is in the following three steps.
+
+[1m[33m1.[m Connect the serial pins of the control board to the USB serial converter.
+[1m[33m1.[m Connect the USB serial converter to the PC (such as raspberry pi).[24;90H1,1[11CTop"README.md" 66L, 2454B[1;1H[?25h[?25l[24;80H~@k[1;1H[24;80H   [2;1H[24;90H2[2;1H[?25h[?25l[24;80H~@k[2;1H[24;80H   [4;1H[24;90H3,0-1[4;1H[?25h[?25l[24;80H~@k[4;1H[24;80H   [5;1H[24;90H4,1  [5;1H[?25h[?25l[24;80H~@k[5;1H[24;80H   [6;1H[24;90H5[6;1H[?25h[?25l[24;80H~@k[6;1H[24;80H   [8;1H[24;90H6,0-1[8;1H[?25h[?25l[24;80H~@k[8;1H[24;80H   [9;1H[24;90H7,1  [9;1H[?25h[?25l[24;80H~@k[9;1H[24;80H   [10;1H[24;90H8[10;1H[?25h[?25l[24;80H~@k[10;1H[24;80H   [13;1H[24;90H9,0-1[13;1H[?25h[?25l[24;80H~@k[13;1H[24;80H   [14;1H[24;90H10,1 [14;1H[?25h[?25l[24;80H~@k[14;1H[24;80H   [16;1H[24;91H1,0-1[16;1H[?25h[?25l[24;80H~@k[16;1H[24;80H   [17;1H[24;91H2,1  [17;1H[?25h[?25l[24;80H~@k[17;1H[24;80H   [18;1H[24;91H3,0-1[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[33m1.[m Connect servos and power supply as necessary.[24;1H[K[24;90H14,1[11C2%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [17;1H[1;23r[1;1H[2M[1;24r[23;1H![]([1m[35mhttps://raw.githubusercontent.com/aakmsk/serial_bus_servo_controller/main/images/img.jpg[m)[24;90H[K[24;90H15,1[11C4%[17;1H[?25h[?25l[24;80H~@k[17;1H[24;80H   [18;1H[24;91H6,0-1[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[24;90H[K[24;90H17,1[11C6%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m# [m[1m[35mDownload the module[m[24;90H[K[24;90H18,1[11C8%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [17;1H[1;23r[1;1H[2M[1;24r[22;1H[1m[31m## [m[1m[35mTerminal:[m
+[1m[31m```[m[24;90H[K[24;90H19,1[10C10%[17;1H[?25h[?25l[24;80H~@k[17;1H[24;80H   [18;1H[24;90H20,0-1[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hgit clone https://github.com/aakmsk/serial_bus_servo_controller_python_module.git[24;90H[K[24;90H21,1[10C13%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hcd serial_bus_servo_controller_python_module/scripts[24;90H[K[24;90H22,0-1[8C15%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [16;1H[1;23r[1;1H[3M[1;24r[21;1H[1m[31m```
+
+# [m[1m[35mUsage[m[24;90H[K[24;90H23,1[10C18%[16;1H[?25h[?25l[24;80H~@k[16;1H[24;80H   [17;1H[24;91H4[17;1H[?25h[?25l[24;80H~@k[17;1H[24;80H   [18;1H[24;91H5[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1HStart the python interpreter.[24;90H[K[24;90H26,1[10C20%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [17;1H[1;23r[1;1H[2M[1;24r[23;1H[1m[31m## [m[1m[35mPython:[m[24;90H[K[24;90H27,1[10C23%[17;1H[?25h[?25l[24;80H~@k[17;1H[24;80H   [18;1H[24;91H8[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m```[m[24;90H[K[24;90H29,0-1[8C25%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1Himport serial_bus_servo_controller as sbsc[24;90H[K[24;90H30,1[10C27%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hcontroller = sbsc.SBS_Controller("/dev/ttyUSB0")[24;90H[K[24;90H31,1[10C30%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m```[m[24;90H[K[24;90H32,0-1[8C32%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [17;1H[1;23r[1;1H[2M[1;24r[22;1HPass the device name corresponding to the USB serial converter as an argument, and instantiate the SBS[1m[37m[41m_[mContt[23;1Hroller class defined in the module.[24;90H[K[24;90H33,1[10C36%[17;1H[?25h[?25l[24;80H~@k[17;1H[24;80H   [18;1H[24;91H4[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[24;90H[K[24;90H35,1[10C38%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[33m-[m Control specified servos[24;90H[K[24;90H36,1[10C40%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m```[m[24;90H[K[24;90H37,1[10C43%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [17;1H[1;23r[1;1H[2M[1;24r[22;1H# This is an example of rotating servos with IDs 1 and 2 to positions 100 and 400, respectively, in 500ms.[24;90H[K[24;90H38,1[10C47%[17;1H[?25h[?25l[24;80H~@k[17;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hcontroller.cmd_servo_move([1, 2], [200, 400], 500)[24;90H[K[24;90H39,0-1[8C50%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m```[m[24;90H[K[24;90H40,1[10C52%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[33m-[m Get the rotation positions of specified servos[24;90H[K[24;90H41,1[10C54%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m```[m[24;90H[K[24;90H42,1[10C56%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H# Get the current rotation position of the servos with IDs 1 and 2[24;90H[K[24;90H43,0-1[8C59%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[24;90H[K[24;90H44,1[10C61%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hp_val = controller.cmd_mult_servo_pos_read([1, 2])[24;90H[K[24;90H45,1[10C63%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m```[m[24;90H[K[24;90H46,1[10C65%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[33m-[m Power off the specified servos[24;90H[K[24;90H47,1[10C68%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m```[m[24;90H[K[24;90H48,1[10C70%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H# Power off the servos with IDs 1 and 2[24;90H[K[24;90H49,0-1[8C72%[18;1H[?25h[?25l[24;80H:[18;1H[24;80H[K[24;1H:[?25hwq[?25l[24;3H[K[24;3H[?25h[?25l[24;2H[K[24;2H[?25h [?25l[18;1H[24;90H49,0-1[8C72%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [17;1H[24;91H8,1  [17;1H[?25h[?25l[24;80H~@k[17;1H[24;80H   [16;1H[24;91H7[16;1H[?25h[?25l[24;80H~@k[16;1H[24;80H   [15;1H[24;91H6[15;1H[?25h[?25l[24;80H~@k[15;1H[24;80H   [14;1H[24;91H5[14;1H[?25h[?25l[24;80H~@k[14;1H[24;80H   [13;1H[24;91H4[13;1H[?25h[?25l[24;80H~@k[13;1H[24;80H   [12;1H[24;91H3,0-1[12;1H[?25h[?25l[24;80H~@k[12;1H[24;80H   [11;1H[24;91H2,1  [11;1H[?25h[?25l[24;80H~@k[11;1H[24;80H   [10;1H[24;91H1[10;1H[?25h[?25l[24;80H~@k[10;1H[24;80H   [9;1H[24;91H0[9;1H[?25h[?25l[24;80H~@k[9;1H[24;80H   [8;1H[24;90H39,0-1[8;1H[?25h[?25l[24;80H~@k[8;1H[24;80H   [6;1H[24;91H8,1  [6;1H[?25h[?25l[24;80H~@k[6;1H[24;80H   [6;1H[1;23r[1;1H[L[1;24r[24;90H[K[24;90H37,1[10C70%[6;1H[?25h[?25l[24;80H~@k[6;1H[24;80H   [6;1H[1;23r[1;1H[L[1;24r[1;1HStart the python interpreter.[24;90H[K[24;90H36,1[10C68%[6;1H[?25h[?25l[24;80H~@k[6;1H[24;80H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[1m[31m# [m[1m[35mUsage[m[24;90H[K[24;90H35,1[10C65%[6;1H[?25h[?25l[24;80H~@k[6;1H[24;80H   [6;1H[1;23r[1;1H[L[1;24r[24;90H[K[24;90H34,1[10C63%[6;1H[?25h[?25l[24;80H~@k[6;1H[24;80H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[1m[31m```[m[24;90H[K[24;90H33,1[10C61%[6;1H[?25h[?25l[24;80H~@k[6;1H[24;80H   [6;1H[1;23r[1;1H[L[1;24r[1;1Hcd serial_bus_servo_controller_python_module/scripts[24;90H[K[24;90H32,0-1[8C59%[6;1H[?25h[?25l[24;80H~@k[6;1H[24;80H   [6;1H[1;23r[1;1H[L[1;24r[1;1Hgit clone https://github.com/aakmsk/serial_bus_servo_controller_python_module.git[24;90H[K[24;90H31,1[10C56%[6;1H[?25h[?25l[24;80H~@k[6;1H[24;80H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[1m[31m```[m[24;90H[K[24;90H30,1[10C54%[6;1H[?25h[?25l[24;80H~@k[6;1H[24;80H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[1m[31m## [m[1m[35mTerminal:[m[24;90H[K[24;90H29,0-1[8C52%[6;1H[?25h[?25l[24;80H~@k[6;1H[24;80H   [6;1H[1;23r[1;1H[L[1;24r[1;1H[1m[31m# [m[1m[35mDownload the module[m[24;90H[K[24;90H28,1[10C50%[6;1H[?25h[?25l[24;80H~@k[6;1H[24;80H   [7;1H[24;91H9,0-1[7;1H[?25h[?25l[24;80H~@k[7;1H[24;80H   [8;1H[24;90H30,1  [8;1H[?25h[?25l[24;80H~@k[8;1H[24;80H   [9;1H[24;91H1[9;1H[?25h[?25l[24;80H~@k[9;1H[24;80H   [10;1H[24;91H2,0-1[10;1H[?25h[?25l[24;80H~@k[10;1H[24;80H   [11;1H[24;91H3,1  [11;1H[?25h[?25l[24;80H~@k[11;1H[24;80H   [12;1H[24;91H4[12;1H[?25h[?25l[24;80H~@k[12;1H[24;80H   [13;1H[24;91H5[13;1H[?25h[?25l[24;80H~@k[13;1H[24;80H   [14;1H[24;91H6[14;1H[?25h[?25l[24;80H~@k[14;1H[24;80H   [15;1H[24;91H7[15;1H[?25h[?25l[24;80H~@k[15;1H[24;80H   [16;1H[24;91H8[16;1H[?25h[?25l[24;80H~@k[16;1H[24;80H   [18;1H[24;91H9,0-1[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m```[m[24;90H[K[24;90H40,1[10C52%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[33m-[m Get the rotation positions of specified servos[24;90H[K[24;90H41,1[10C54%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m```[m[24;90H[K[24;90H42,1[10C56%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H# Get the current rotation position of the servos with IDs 1 and 2[24;90H[K[24;90H43,0-1[8C59%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[24;90H[K[24;90H44,1[10C61%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hp_val = controller.cmd_mult_servo_pos_read([1, 2])[24;90H[K[24;90H45,1[10C63%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m```[m[24;90H[K[24;90H46,1[10C65%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[33m-[m Power off the specified servos[24;90H[K[24;90H47,1[10C68%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m```[m[24;90H[K[24;90H48,1[10C70%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H# Power off the servos with IDs 1 and 2[24;90H[K[24;90H49,0-1[8C72%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[24;90H[K[24;90H50,1[10C75%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1Hcontroller.cmd_mult_servo_unload([1, 2])[24;90H[K[24;90H51,1[10C77%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m```[m[24;90H[K[24;90H52,1[10C79%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[33m-[m Get the battery voltage[24;90H[K[24;90H53,1[10C81%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m```[m[24;90H[K[24;90H54,1[10C84%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [17;1H[1;23r[1;1H[2M[1;24r[22;1Hb_val = controller.cmd_get_battery_voltage()
+[1m[31m```[m[24;90H[K[24;90H55,0-1[8C88%[17;1H[?25h[?25l[24;80H~@k[17;1H[24;80H   [18;1H[24;91H6,1  [18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[24;90H[K[24;90H57,1[10C90%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H[1m[31m# [m[1m[35mUpdate history[m[24;90H[K[24;90H58,1[10C93%[18;1H[?25h[?25l[24;80H~@k[18;1H[24;80H   [18;1H[1;23r[23;1H
+[1;24r[23;1H|date|Details|[24;90H[K[24;90H59,1[10C95%[18;1H[?25h[?25l[24;
