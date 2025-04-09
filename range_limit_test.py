@@ -5,9 +5,9 @@ import serial_bus_servo_controller as sbsc
 import time
 controller = sbsc.SBS_Controller("/dev/ttyS0")
 
-servo_id = 6
+servo_id = 5
 
-position = 90
+position = 200
 controller.cmd_servo_move([servo_id], [position], 3000)
 time.sleep(4)
 

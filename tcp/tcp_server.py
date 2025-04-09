@@ -101,7 +101,7 @@ else:
     log_socket = None
     log("Could not connect to log stream after retries.")
     
-# Creating main server socket
+# ~ # Creating main server socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 server_socket.bind((HOST, PORT))
@@ -131,19 +131,27 @@ try:
 			x = data_dict["x"]
 			z = data_dict["y"]
 			y = data_dict["z"]
-			phi = data_dict["phi"]
+			# ~ phi = data_dict["phi"]
 			wrist = data_dict["wrist"]
 			grip = data_dict["grip"]
-			gas = data_dict["gas"]
+			gas_x = data_dict["gas (x)"]
+			gas_y = data_dict["gas (y)"]
+			
+			# Y scaling
+			z = z - 9
+			if grip > 1000:
+				grip = 1000
+			
 			# ~ steer = data_dict["steering"]
 			
 			# ~ x, y, z = scale_to_reach(x, y, z, MAX_REACH)
 			
-			log(f"Received: x = {x}, y = {y}, z = {z}, phi = {phi}, wrist = {wrist}, grip = {grip}, gas = {gas}")
+			log(f"Received: x = {x}, y = {y}, z = {z}, wrist = {wrist}, grip = {grip}, gas_x = {gas_x}, gas_y = {gas_y}")
 			
 			try:
 				# Option 1: No Interpolation + Default Execution Time
-				controller.move_end_effector(x, y, z, phi, wrist, grip, 1000)
+				grip = int(grip)
+				controller.move_end_effector(x, y, z, 0, wrist, grip, 900)
 				
 				# Option 2: Interpolation Test
 				# ~ prev_pose = interpolate_and_move(controller, prev_pose, (x, y, z, phi), steps=10, total_duration=1.0)
@@ -152,11 +160,12 @@ try:
 				response = f"Error: {e}"
 				continue
 			except Exception as e:
+				
 				log(f"Unexpected error during move_end_effector: {e}")
 				response = f"Error: {e}"
 				continue 
 			else:
-				response = f"Received: x = {x}, y = {y}, z = {z}, phi = {phi}"
+				response = f"Received: x = {x}, y = {y}, z = {z}"
 			
 			client_socket.sendall(response.encode('utf-8'))
 		except json.JSONDecodeError:

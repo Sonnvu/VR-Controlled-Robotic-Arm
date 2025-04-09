@@ -1,0 +1,17 @@
+[2025-04-07 17:52:21] Rover TCP Server listening on 0.0.0.0:65433...
+[2025-04-07 17:54:56] CONNECTION ESTABLISHED: ('192.168.0.15', 58740)
+[2025-04-07 17:54:56] Error: 'str' object has no attribute 'get'
+[2025-04-07 17:54:57] CONNECTION ESTABLISHED: ('192.168.0.15', 58741)
+[2025-04-07 17:54:57] Error: 'str' object has no attribute 'get'
+[2025-04-07 17:54:58] CONNECTION ESTABLISHED: ('192.168.0.15', 58742)
+[2025-04-07 17:54:58] Error: 'str' object has no attribute 'get'
+[2025-04-07 17:56:13] Shutting down Rover TCP server...
+[2025-04-07 17:56:14] Rover TCP Server listening on 0.0.0.0:65433...
+[2025-04-07 17:56:18] CONNECTION ESTABLISHED: ('192.168.0.15', 58788)
+[2025-04-07 17:56:18] Error: string indices must be integers, not 'str'
+[2025-04-07 17:56:19] CONNECTION ESTABLISHED: ('192.168.0.15', 58789)
+[2025-04-07 17:56:19] Error: string indices must be integers, not 'str'
+[2025-04-07 17:56:21] CONNECTION ESTABLISHED: ('192.168.0.15', 58790)
+[2025-04-07 17:56:21] Error: string indices must be integers, not 'str'
+[2025-04-07 17:56:33] CONNECTION ESTABLISHED: ('192.168.0.15', 58792)
+[2025-04-07 17:56:33] Received Rover Data: steering=0, gas=0, brake=0

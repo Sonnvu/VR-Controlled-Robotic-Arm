@@ -154,8 +154,8 @@ class SBS_Controller:
         
     def cmd_move_with_angle(self, theta_6, theta_1, theta_2, theta_3, wrist, grip, duration):
         servo_ranges = {
-            6: {"angle_min": -90, "angle_max": 90, "pos_min": 225, "pos_max": 980},
-            5: {"angle_min": 0, "angle_max": 180, "pos_min": 160, "pos_max": 850},
+            6: {"angle_min": -90, "angle_max": 90, "pos_min": 100, "pos_max":860},
+            5: {"angle_min": 0, "angle_max": 180, "pos_min": 250, "pos_max": 690},
             4: {"angle_min": -135, "angle_max": 127, "pos_min": 1000, "pos_max": 0},
             3: {"angle_min": -103, "angle_max": 120, "pos_min": 75, "pos_max": 1000},
             2: {"angle_min": 0, "angle_max": 180, "pos_min": 900, "pos_max": 20}
@@ -189,10 +189,10 @@ class SBS_Controller:
     def move_end_effector(self, x3, y3, z3, p, wrist, grip, t):
         # Length of arm segments in cm
         l1 = 10
-        l2 = 9.6
+        l2 = 9.9
         l3 = 10.2
         
-        x3, y3 = vr_scaling.scale_vr_to_arm(x3, y3)
+        # ~ x3, y3 = vr_scaling.scale_vr_to_arm(x3, y3)
 	
         phi = np.deg2rad(p)
         #Calculate the horizontal distance to the targeton XY plane
@@ -205,14 +205,14 @@ class SBS_Controller:
         r2 = r3 - l3*np.cos(phi)
         z2 = z3 - l3*np.sin(phi)
         
-        max_reach = l1 + l2
-        current_distance = np.sqrt(r2**2 + z2**2)
+        # ~ max_reach = l1 + l2
+        # ~ current_distance = np.sqrt(r2**2 + z2**2)
 	
-        if current_distance > max_reach:
-            scale_factor = max_reach / current_distance
-            r2 *= scale_factor
-            z2 *= scale_factor
-            print(f"Target out of reach. Moving to closest reachable point: ({r2:.2f}, {z2:.2f})")
+        # ~ if current_distance > max_reach:
+            # ~ scale_factor = max_reach / current_distance
+            # ~ r2 *= scale_factor
+            # ~ z2 *= scale_factor
+            # ~ print(f"Target out of reach. Moving to closest reachable point: ({r2:.2f}, {z2:.2f})")
 	
         c2 = (r2**2 + z2**2 - l1**2 - l2**2)/(2*l1*l2)
         c2 = np.clip(c2, -1.0, 1.0)
