@@ -4,7 +4,7 @@ import time
 import threading
 
 HOST = '0.0.0.0'
-PORT = 65433  # Dedicated port for rover
+PORT = 65432  # Dedicated port for rover
 
 def log(message):
     timestamp = time.strftime("[%Y-%m-%d %H:%M:%S]")

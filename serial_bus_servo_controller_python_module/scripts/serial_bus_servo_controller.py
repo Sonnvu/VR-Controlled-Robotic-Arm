@@ -152,6 +152,9 @@ class SBS_Controller:
     def angle_to_val(self, angle):
         return int(1000/(210 + 315) * angle)
         
+    def clamp_angle(self, angle, min_val, max_val):
+        return max(min(angle, max_val), min_val)
+        
     def cmd_move_with_angle(self, theta_6, theta_1, theta_2, theta_3, wrist, grip, duration):
         servo_ranges = {
             6: {"angle_min": -90, "angle_max": 90, "pos_min": 100, "pos_max":860},
@@ -173,15 +176,18 @@ class SBS_Controller:
         for servo_id, angle in angles.items():
             min_angle = servo_ranges[servo_id]["angle_min"]
             max_angle = servo_ranges[servo_id]["angle_max"]
-            if not (min_angle <= angle <= max_angle):
-                raise ValueError(f"Servo {servo_id}: angle {angle} out of range ({min_angle} to {max_angle})")
+            clamped_angle = self.clamp_angle(angle, min_angle, max_angle)
+            
+            if clamped_angle != angle:
+                print(f"[ANGLE_ERROR]: Servo {servo_id}: angle {angle} out of range ({min_angle} to {max_angle}) | Map Servo {servo_id} = {clamped_angle}")
+                
+            angles[servo_id] = clamped_angle
         
-        
-        servo_6_pos = self.angle_to_servo(theta_6, servo_ranges[6]["angle_min"], servo_ranges[6]["angle_max"], servo_ranges[6]["pos_min"], servo_ranges[6]["pos_max"])
-        servo_5_pos = self.angle_to_servo(theta_1, servo_ranges[5]["angle_min"], servo_ranges[5]["angle_max"], servo_ranges[5]["pos_min"], servo_ranges[5]["pos_max"])
-        servo_4_pos = self.angle_to_servo(theta_2, servo_ranges[4]["angle_min"], servo_ranges[4]["angle_max"], servo_ranges[4]["pos_min"], servo_ranges[4]["pos_max"])
-        servo_3_pos = self.angle_to_servo(theta_3, servo_ranges[3]["angle_min"], servo_ranges[3]["angle_max"], servo_ranges[3]["pos_min"], servo_ranges[3]["pos_max"])
-        servo_2_pos = self.angle_to_servo(wrist, servo_ranges[2]["angle_min"], servo_ranges[2]["angle_max"], servo_ranges[2]["pos_min"], servo_ranges[2]["pos_max"])
+        servo_6_pos = self.angle_to_servo(angles[6], servo_ranges[6]["angle_min"], servo_ranges[6]["angle_max"], servo_ranges[6]["pos_min"], servo_ranges[6]["pos_max"])
+        servo_5_pos = self.angle_to_servo(angles[5], servo_ranges[5]["angle_min"], servo_ranges[5]["angle_max"], servo_ranges[5]["pos_min"], servo_ranges[5]["pos_max"])
+        servo_4_pos = self.angle_to_servo(angles[4], servo_ranges[4]["angle_min"], servo_ranges[4]["angle_max"], servo_ranges[4]["pos_min"], servo_ranges[4]["pos_max"])
+        servo_3_pos = self.angle_to_servo(angles[3], servo_ranges[3]["angle_min"], servo_ranges[3]["angle_max"], servo_ranges[3]["pos_min"], servo_ranges[3]["pos_max"])
+        servo_2_pos = self.angle_to_servo(angles[2], servo_ranges[2]["angle_min"], servo_ranges[2]["angle_max"], servo_ranges[2]["pos_min"], servo_ranges[2]["pos_max"])
         
         self.cmd_servo_move([6, 5, 4, 3, 2, 1], [servo_6_pos, servo_5_pos, servo_4_pos, servo_3_pos, servo_2_pos, grip], duration)
       
@@ -232,4 +238,4 @@ class SBS_Controller:
         print(f"[Servo_6]: {np.rad2deg(theta_base)}; [Servo_5]: {np.rad2deg(theta_1)}; [Servo_4]: {np.rad2deg(theta_2)}; [theta_3]: {np.rad2deg(theta_3)}")
 	
         self.cmd_move_with_angle(np.rad2deg(theta_base), np.rad2deg(theta_1), np.rad2deg(theta_2), np.rad2deg(theta_3), wrist, grip, t)    
-        print("----------------------Movement Executed Successfully----------------------\n")
+        print("Movement Executed Successfully\n")
