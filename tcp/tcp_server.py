@@ -146,6 +146,8 @@ def handle_client(client_socket, client_address):
 			z = z - 9
 			if grip > 1000:
 				grip = 1000
+			if y < -7.4:
+				y = -7.4
 			
 			log(f"Received: x = {x}, y = {y}, z = {z}, wrist = {wrist}, grip = {grip}")
 			response = ""
