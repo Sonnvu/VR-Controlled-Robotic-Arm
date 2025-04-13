@@ -3,7 +3,7 @@ import time
 import threading
 
 # Define GPIO pins for the stepper motors
-step_pins_SW = [14, 15, 18, 23]  # Stepper motor SE
+step_pins_SW = [13, 19, 18, 23]  # Stepper motor SE
 step_pins_NW = [24, 25, 8, 7]    # Stepper motor SW
 step_pins_SE = [20, 16, 12, 1]
 step_pins_NE = [2, 3, 4, 17]     # Stepper motor NW
@@ -90,7 +90,7 @@ import time
 import threading
 
 HOST = '0.0.0.0'
-PORT = 65432  # Dedicated port for rover
+PORT = 65433  # Dedicated port for rover
 
 def log(message):
     timestamp = time.strftime("[%Y-%m-%d %H:%M:%S]")
@@ -102,85 +102,92 @@ def log(message):
 def handle_client(client_socket, address):
     global motor_running, motor_direction, turn_motor_direction, turn_motor_running
     log(f"CONNECTION ESTABLISHED: {address}")
-    try:
-        data = client_socket.recv(1024).decode('utf-8')
-        data_dict = json.loads(data)
+    while True:
+        try:
+            data = client_socket.recv(1024).decode('utf-8')
+            data_dict = json.loads(data)
 
-        # Extract relevant rover data
-        user_input = data_dict["input"]
-        
-        log(f"Received Rover Data: user_input={user_input}")
+            # Extract relevant rover data
+            gas_x = data_dict["gas (x)"]
+            gas_y = data_dict["gas (y)"]
+            
+            log(f"Received Rover Data: gas_x = {gas_x}, gas_y = {gas_y}")
+            
 
-        # TODO: Implement rover control logic here
-        if user_input == "1":
-            print("User input is 1")
-            if motor_running and motor_direction == "forward":
-                print("Stopping motor rotation forward.")
-                stop_motor()
-            else:
-                print("Starting motor rotation forward.")
-                motor_direction = "forward"
-                # Start all motors simultaneously in forward direction
-                start_motor(step_pins_SE, motor_direction)
-                start_motor(step_pins_SW, motor_direction)
-                start_motor(step_pins_NE, motor_direction)
-                start_motor(step_pins_NW, motor_direction)
+            # TODO: Implement rover control logic here
+            # ~ if user_input == "1":
+                # ~ print("User input is 1")
+                # ~ if motor_running and motor_direction == "forward":
+                    # ~ print("Stopping motor rotation forward.")
+                    # ~ stop_motor()
+                # ~ else:
+                    # ~ print("Starting motor rotation forward.")
+                    # ~ motor_direction = "forward"
+                    # ~ # Start all motors simultaneously in forward direction
+                    # ~ start_motor(step_pins_SE, motor_direction)
+                    # ~ start_motor(step_pins_SW, motor_direction)
+                    # ~ start_motor(step_pins_NE, motor_direction)
+                    # ~ start_motor(step_pins_NW, motor_direction)
 
-        elif user_input == "-1":
-            if motor_running and motor_direction == "backward":
-                print("Stopping motor rotation backward.")
-                stop_motor()
-            else:
-                print("Starting motor rotation backward.")
-                motor_direction = "backward"
-                # Start all motors simultaneously in backward direction
-                start_motor(step_pins_SE, motor_direction)
-                start_motor(step_pins_SW, motor_direction)
-                start_motor(step_pins_NE, motor_direction)
-                start_motor(step_pins_NW, motor_direction)
+            # ~ elif user_input == "-1":
+                # ~ if motor_running and motor_direction == "backward":
+                    # ~ print("Stopping motor rotation backward.")
+                    # ~ stop_motor()
+                # ~ else:
+                    # ~ print("Starting motor rotation backward.")
+                    # ~ motor_direction = "backward"
+                    # ~ # Start all motors simultaneously in backward direction
+                    # ~ start_motor(step_pins_SE, motor_direction)
+                    # ~ start_motor(step_pins_SW, motor_direction)
+                    # ~ start_motor(step_pins_NE, motor_direction)
+                    # ~ start_motor(step_pins_NW, motor_direction)
 
-        elif user_input == "2":
-            if turn_motor_running and turn_motor_direction == "forward":
-                print("Stopping turn motor rotation forward.")
-                turn_motor_running = False
-                # Wait for the motor thread to stop
-                if turn_motor_thread is not None:
-                    turn_motor_thread.join()
-                # Stop the turn motor
-                for pin in step_pins_turn:
-                    GPIO.output(pin, GPIO.LOW)
-            else:
-                print("Starting turn motor rotation forward.")
-                turn_motor_direction = "forward"
-                start_motor(step_pins_turn, "forward")
+            # ~ elif user_input == "2":
+                # ~ if turn_motor_running and turn_motor_direction == "forward":
+                    # ~ print("Stopping turn motor rotation forward.")
+                    # ~ turn_motor_running = False
+                    # ~ # Wait for the motor thread to stop
+                    # ~ if turn_motor_thread is not None:
+                        # ~ turn_motor_thread.join()
+                    # ~ # Stop the turn motor
+                    # ~ for pin in step_pins_turn:
+                        # ~ GPIO.output(pin, GPIO.LOW)
+                # ~ else:
+                    # ~ print("Starting turn motor rotation forward.")
+                    # ~ turn_motor_direction = "forward"
+                    # ~ start_motor(step_pins_turn, "forward")
 
-        elif user_input == "3":
-            if turn_motor_running and turn_motor_direction == "backward":
-                print("Stopping turn motor rotation backward.")
-                turn_motor_running = False
-                # Wait for the motor thread to stop
-                if turn_motor_thread is not None:
-                    turn_motor_thread.join()
-                # Stop the turn motor
-                for pin in step_pins_turn:
-                    GPIO.output(pin, GPIO.LOW)
-            else:
-                print("Starting turn motor rotation backward.")
-                turn_motor_direction = "backward"
-                start_motor(step_pins_turn, "backward")
+            # ~ elif user_input == "3":
+                # ~ if turn_motor_running and turn_motor_direction == "backward":
+                    # ~ print("Stopping turn motor rotation backward.")
+                    # ~ turn_motor_running = False
+                    # ~ # Wait for the motor thread to stop
+                    # ~ if turn_motor_thread is not None:
+                        # ~ turn_motor_thread.join()
+                    # ~ # Stop the turn motor
+                    # ~ for pin in step_pins_turn:
+                        # ~ GPIO.output(pin, GPIO.LOW)
+                # ~ else:
+                    # ~ print("Starting turn motor rotation backward.")
+                    # ~ turn_motor_direction = "backward"
+                    # ~ start_motor(step_pins_turn, "backward")
 
 
-        response = f"Received Rover Data: user_input={user_input}"
-        client_socket.sendall(response.encode('utf-8'))
+            response = f"Received Rover Data: gas_x = {gas_x}, gas_y = {gas_y}"
+            client_socket.sendall(response.encode('utf-8'))
 
-    except json.JSONDecodeError:
-        log("Invalid JSON format received.")
-        client_socket.sendall(b"Invalid JSON format")
-    except Exception as e:
-        log(f"Error: {e}")
-        client_socket.sendall(f"Server error: {e}".encode('utf-8'))
-    finally:
-        client_socket.close()
+        except json.JSONDecodeError:
+            log("Invalid JSON format received.")
+            client_socket.sendall(b"Invalid JSON format")
+        except ConnectionResetError:
+            log(f"Connection reset by client: {client_address}")
+            break
+        except Exception as e:
+            log(f"Error: {e}")
+            break
+            
+    log(f"Client {client_address} disconnected.")
+    client_socket.close()
 
 def start_rover_server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
